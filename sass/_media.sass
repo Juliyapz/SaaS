@@ -1,6 +1,9 @@
 @media ( max-width: 1200px )
   .container
     max-width: 95%
+  .main
+    &__img
+      width: 500px
 @media ( max-width: 992px )
   .header
     &__logo
@@ -13,6 +16,12 @@
       padding: 10px 30px
       font-size: 15px
       line-height: 20px
+  .main
+    &-wrapper
+      flex-wrap: wrap
+      justify-content: center
+    &__info
+      margin-bottom: 50px
 @media ( max-width: 768px )
   .container
     max-width: 90%
@@ -28,8 +37,21 @@
       margin-top: 20px
 @media ( max-width: 576px )
   .header
+    margin-bottom: 50px
     &__logo
       width: 140px
     &__button
       padding: 5px 15px
       font-size: 13px
+  .main
+    &__title
+      font-size: 50px
+      line-height: 55px
+    &__info
+      margin-bottom: 30px
+      font-size: 16px
+      line-height: 22px
+    &__link
+      padding: 18px 38px
+    &__img
+      width: 315px
